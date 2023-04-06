@@ -16,6 +16,8 @@ At minimum, you'd want to try something like:
 Log message can be custom styled. I like to stick to a format of ```application_name``` and ```event message``` separated by a hyphen. This is a simpler version of RFC standardized format implemented by syslog.
 
 <br />
+
+A fuller usage below:
 ```
 ./logger.sh -d -m "expo-webview - Received request for profile update" -o /var/etc/logs/expo.logs
 ```
