@@ -10,5 +10,6 @@ To get started, copy ```logger.sh``` to any directory and run as executable.
 
 ### To Do
 ```
+Add support for piping and redirects for easier integration. <br />
 Add logrotate to auto rotate logs on given interval basis with support for setting file size limits, compression, etc
 ```
